@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-01 - Minor improvements
+
+- Added PDF export option for generated security reports
+- Improved deduplication of findings with identical CVE identifiers
+- Fixed Slack message truncation for reports with large finding counts
+- Added --dry-run flag to preview report output without sending
+
 ## 2026-05-29 - Minor improvements
 
 - Added summary section to weekly security digest reports
