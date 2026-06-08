@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-08 - Minor improvements
+
+- Added support for templated report sections with per-team customization
+- Improved finding severity color coding in HTML report output
+- Fixed rate limit handling when sending bulk Slack notifications
+- Added retry logic for transient delivery failures
+
 ## 2026-06-05 - Minor improvements
 
 - Added support for multi-channel delivery (Slack + email) in a single report run
