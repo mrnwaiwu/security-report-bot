@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-15 - Minor improvements
+
+- Added Microsoft Teams webhook delivery alongside existing Slack integration
+- Improved report generation performance for large finding sets (500+ items)
+- Fixed encoding issue in report titles containing non-ASCII characters
+- Added `--since` flag to filter findings by first-seen discovery date
+
 ## 2026-06-08 - Minor improvements
 
 - Added support for templated report sections with per-team customization
