@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-19 - Minor improvements
+
+- Added Jira integration for automatic ticket creation from high-severity findings
+- Improved report scheduling with cron-based delivery windows per team
+- Fixed memory leak in long-running report generation processes with large finding sets
+- Added support for custom severity label overrides per scanner source
+- Improved HTML report table rendering for findings with long description fields
+
 ## 2026-06-15 - Minor improvements
 
 - Added Microsoft Teams webhook delivery alongside existing Slack integration
