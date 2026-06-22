@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-22 - Minor improvements
+
+- Added per-finding owner assignment field for accountability tracking in generated reports
+- Improved Slack message formatting to use blocks for better readability on mobile clients
+- Fixed duplicate report delivery when multiple scheduler triggers overlapped within the same window
+- Added `--format csv` export option for findings tables
+
 ## 2026-06-19 - Minor improvements
 
 - Added Jira integration for automatic ticket creation from high-severity findings
