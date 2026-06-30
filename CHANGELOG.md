@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-29 - Minor improvements
+
+- Added `--group-by cve` flag to aggregate findings by CVE identifier across multiple scanner sources
+- Improved report digest summary to include week-over-week finding count delta
+- Fixed HTML report rendering issue where long CVE descriptions broke table column widths
+- Added PagerDuty webhook delivery option for critical-severity finding notifications
+
 ## 2026-06-22 - Minor improvements
 
 - Added per-finding owner assignment field for accountability tracking in generated reports
